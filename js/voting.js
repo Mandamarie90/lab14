@@ -25,11 +25,11 @@ function renderProductImages() {
   }
 
   for (let i = 0; i < imgElements.length; i++) {
-    let randomIndex = productIndexArray.shift()
+    let randomIndex = productIndexArray.shift();
 
-    imgElements[i].src = state.allProducts[randomIndex].source
-    imgElements[i].title = state.allProducts[randomIndex].name
-    imgElements[i].alt = state.allProducts[randomIndex].name
+    imgElements[i].src = state.allProducts[randomIndex].source;
+    imgElements[i].title = state.allProducts[randomIndex].name;
+    imgElements[i].alt = state.allProducts[randomIndex].name;
     state.allProducts[randomIndex].timesShown++;
   }
 }
