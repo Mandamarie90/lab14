@@ -1,1 +1,80 @@
-/* TODO: Make it awesome */
+
+body {
+  background-color: rgb(185, 235, 243); 
+}
+
+
+body, h1, p {
+  color: #C0C0C0; 
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+h1 {
+  background-color: navy;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  text-align:center;
+  padding:30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+nav{
+  background:#120000;
+  padding:10px;
+ 
+}
+nav li{
+  font-size: 22px;
+  display:inline;
+  text-decoration: none;
+
+}
+
+a {
+  color: hwb(211 51% 6%); 
+  text-decoration: none;
+  padding: 5px;
+  margin-left: 15px;
+  
+}
+
+a:hover {
+  text-decoration: underline;
+  color:rgb(15, 250, 168);
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px; 
+}
+
+section img{
+  background-color:hwb(211 51% 6%);
+  margin-top: 20px;
+  padding: 7px;
+  border: 5px solid black;
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  border-top-left-radius: 2.5%;
+  border-bottom-right-radius: 2.5%;
+  height: 50%;
+  width: 31%;
+  max-width: calc((100% - 40px) / 3);
+}
+
